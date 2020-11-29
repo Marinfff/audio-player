@@ -8,11 +8,13 @@
   "main": "background.js",
   "dependencies": {
     "core-js": "^2.6.5",
+    "dataurl": "^0.1.0",
     "deepmerge": "^4.0.0",
     "register-service-worker": "^1.6.2",
     "sass": "^1.22.10",
     "vue": "^2.6.10",
-    "vuetify": "^2.0.12"
+    "vuetify": "^2.0.12",
+    "wavesurfer.js": "^4.2.0"
   },
   "devDependencies": {
     "@babel/plugin-proposal-optional-chaining": "^7.2.0",
@@ -25,7 +27,6 @@
     "electron": "^6.0.10",
     "eslint": "^5.16.0",
     "eslint-plugin-vue": "^5.0.0",
-    "node-sass": "^4.9.0",
     "sass-loader": "^7.1.0",
     "vue-cli-plugin-webpack-bundle-analyzer": "^1.4.0",
     "vue-cli-plugin-electron-builder": "^1.4.0",
